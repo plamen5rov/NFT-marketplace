@@ -1,0 +1,64 @@
+.cat {
+    background-color: rgb(19, 163, 163);
+    width: 300px;
+    height: 500px;
+    border-radius: 5px;
+    margin-top: 0px;
+}
+
+.ears {
+    position: relative;
+    margin-left: 20%;
+    margin-top: 30%;
+}
+
+.ear {
+    background-color: rgb(218, 192, 137);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 90% 0 90% 0;
+
+}
+
+.left-ear {
+    transform: scale(1, -1);
+    left: 0;
+}
+
+.right-ear {
+    left: 100px;
+}
+
+#body {
+    background-color: rgb(218, 192, 137);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 20%;
+    margin-top: 30%;
+}
+
+.eyes {
+    position: relative;
+    top: 30px;
+    display: flex;
+}
+
+.eye {
+    background-color: whitesmoke;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 25px;
+}
+
+.pupils {
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 18px;
+}
